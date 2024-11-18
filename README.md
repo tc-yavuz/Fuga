@@ -1,118 +1,103 @@
-# La Résonance du Vide
+# **Fuga** : Cultiver la Nature Numérique  
 
-## Idée
-“La résonance du vide” est une installation artistique immersive qui explore les effets visuels et sonores de la lévitation acoustique, tout en invitant les participants à une introspection personnelle. Les visiteurs interagissent avec une table de contrôle pour modifier la fréquence des ondes sonores, observant les effets sur l'eau et l'environnement sonore. Un robot, conçu comme une intelligence artificielle, accompagne cette expérience en expliquant les effets sonores sur l'eau et partageant des réflexions sur les émotions humaines liées aux fréquences.
+## **Concept**  
+**Fuga** est une installation interactive centrée sur une plante numérique en 3D, conçue pour croître grâce aux interactions sonores générées par les visiteurs. Ce projet explore le parallèle entre la manière dont la technologie (comme les réseaux sociaux) exige une attention constante pour "grandir" et l'idée de cultiver une relation équilibrée avec la nature et la technologie. Si les visiteurs interagissent régulièrement, la plante prospère et atteint des formes luxuriantes. En revanche, si l'interaction cesse pendant une journée, elle se fane et revient à son état initial, symbolisant la fragilité des écosystèmes, qu'ils soient numériques ou naturels.
 
-## Concept
-L'installation utilise la lévitation acoustique pour démontrer comment les fréquences modifient les motifs dans l'eau et influencent un environnement sonore et visuel. Le robot, avec sa voix apaisante, guide les visiteurs à travers les différentes interactions, créant un contraste entre la logique algorithmique et la subjectivité humaine.
+Le projet invite à réfléchir au rôle de notre attention dans un monde saturé par le numérique, tout en suggérant qu’une attention consciente et équilibrée peut être source d’enrichissement.
 
-## Objectifs
-- **Expérientiels :** Offrir une expérience immersive permettant aux visiteurs d'explorer les phénomènes scientifiques visuels et sonores tout en stimulant une réflexion personnelle.
-- **Émotionnels :** Susciter une prise de conscience sur la manière dont les fréquences acoustiques influencent non seulement les objets mais aussi les émotions et la perception individuelle.
-- **Éducatifs :** Illustrer les principes de la lévitation acoustique et des ondes sonores, en mettant en lumière leur impact à la fois scientifique et personnel.
+---
 
-## Motivations
-L'intégration de l'art et de la science à travers l'acoustique et la visualisation offre une manière innovante d'explorer des concepts abstraits. Le projet cherche à engager les visiteurs dans une expérience qui dépasse la simple observation scientifique pour inclure une dimension introspective.
+## **Objectifs**
+- **Expérientiels :** Offrir une expérience immersive où les visiteurs interagissent activement avec une plante numérique, découvrant l’impact de leur engagement collectif sur son développement.  
+- **Émotionnels :** Éveiller une prise de conscience sur le rôle de l’attention dans nos relations avec la technologie et la nature.  
+- **Éducatifs :** Proposer une exploration ludique et métaphorique des cycles de croissance et de décroissance.  
 
+---
 
+## **L’Espace et la Scénographie**  
+L’installation recrée un dialogue visuel et sonore entre la nature et la technologie :  
+- **Décor hybride :** Des technologies obsolètes (écrans CRT, câbles, téléphones) recouvertes de plantes naturelles ou artificielles pour symboliser la coexistence entre ces deux mondes.  
+- **Éclairage évolutif :** Des lumières qui changent subtilement selon l'état de la plante (lumières vives quand elle prospère, tamisées lorsqu’elle dépérit).  
+- **Plateforme centrale :** Une table minimaliste accueille le **M5Stack Button**, connectée à un écran affichant la plante numérique en 3D, évoluant en temps réel.  
+- **Son spatialisé :** Quatre haut-parleurs positionnés dans les coins diffusent des sons naturels et mélodiques en réponse aux interactions.  
 
-- **Espace Interactif :
+---
 
-```mermaid
-graph TD
-    A[Mode veille spotlight sur l'oscillateur et l'eau] --> B[Entrée dans la Salle]
-    B --> C[Découverte de l'Espace Vide Lumière et projecteurs allumés]
-    C --> D[Images de Robots et Technologie]
-    D --> E[Robot Explique les Effets des Fréquences sur l'Eau]
-    E --> F[Interaction avec le Synthétiseur]
-    F --> G[Ajustement des Fréquences]
-    G --> H[Observation des Effets Visuels dans l'Eau]
-    
-    H --> I[Robot Demande si l'Utilisateur Ressent des Émotions]
-    I --> J[Réflexion de l'Utilisateur]
-    
-    J --> K[Robot S'interroge sur son Incapacité à Ressentir]
-    K --> L[Robot Exprime sa Tristesse]
-    
-    L --> M[Images Humanitaires en Couleur]
-    M --> N[Contraste entre Émotions Humaines et Robot]
-    
-    N --> O[Robot se Déconnecte]
-    O --> P[Suicide Symbolique du Robot]
-    P --> Q[Fin de l'Interaction]
-    Q --> A
+## **Interactivité**
+1. **Croissance Collaborative :**  
+   - Les visiteurs utilisent le **M5Stack Button** pour jouer des sons en appuyant sur différents boutons et en inclinant l’appareil.  
+   - Les sons produits influencent directement la plante : des mélodies harmonieuses favorisent sa croissance, tandis que des sons discordants peuvent ralentir ou stagner son développement.  
 
+2. **Cycle de Temps :**  
+   - La plante pousse en temps réel sur un cycle continu (par exemple, une journée). Si les visiteurs interagissent régulièrement, elle atteint des stades de développement avancés (branches, fleurs, textures détaillées).  
+   - Sans interaction pendant une journée entière, elle commence à se faner progressivement et revient à son état initial.  
 
+3. **État Collectif :**  
+   - Tous les visiteurs participent à la même plante : leur engagement collectif construit ou détruit son évolution.  
 
-```
+---
 
+## **Parallèle avec les Réseaux Sociaux**  
+La plante agit comme une métaphore des réseaux sociaux :  
+- **Engagement constant :** Tout comme une audience en ligne croît avec des publications régulières, la plante nécessite une interaction continue pour prospérer.  
+- **Décroissance naturelle :** L'absence de participation entraîne une décroissance, soulignant la fragilité des relations numériques superficielles.  
 
+Cependant, contrairement à la nature impitoyable des réseaux sociaux, **Fuga** invite à un engagement plus apaisé et contemplatif, favorisant une reconnexion réfléchie.  
 
+---
 
-- ** L'installation se déroule dans une pièce vide, blanche, dépouillée de couleur, dotée uniquement d'un synthétiseur et d'un bol d'eau. Cette neutralité renforce l'idée que l'humain est le seul à pouvoir dégager et propager des émotions dans cet espace.
-- **Projections :** Des images de robots et d'intelligences artificielles créant des robots sont projetées sur les murs. Lorsque le robot questionne les émotions humaines, les images prennent vie en couleur, contrastant avec la blancheur du reste de la pièce.
-- **Intervention du Robot :** À chaque changement de fréquence, le robot exprime sa tristesse de ne pas pouvoir ressentir les émotions humaines.
-- **Réactions Visuelles :** Les écrans affichent des représentations graphiques des fréquences en temps réel.
-- **Réflexion :** Une zone dédiée permet aux visiteurs de consigner leurs réflexions personnelles.
+## **Technologies Utilisées**
 
-### Narratif
-- **Introduction :** Accueil des visiteurs dans une ambiance immersive.
-- **Exploration :** Interaction avec la table de contrôle, accompagnée par le robot.
-- **Réflexion :** Espace de contemplation pour réfléchir à l'expérience personnelle.
+### **Matériel :**  
+1. **M5Stack Button :**  
+   - Interface tangible pour générer des sons.  
+2. **Écran interactif (15-20 pouces ou projecteur mural) :**  
+   - Affichage de la plante 3D en temps réel.  
+3. **Haut-parleurs (4 unités) :**  
+   - Son immersif et spatialisé.  
+4. **Décor recyclé :**  
+   - Technologie vintage (moniteurs CRT, câbles usés) et végétation intégrée.  
 
-## Expérience Utilisateur
-- **Possibilités d'Exploration :**
-  - Ajuster les fréquences pour voir les changements dans l'eau.
-  - Observer les effets sonores et leur impact émotionnel.
-  - Explorer l'espace de réflexion.
+### **Logiciels :**  
+1. **Unity 3D :**  
+   - Modélisation et animation de la plante.  
+   - Gestion des interactions en temps réel.  
+2. **Max/MSP ou Pure Data :**  
+   - Génération des sons et leur modulation par le M5Stack Button.  
+3. **OSC ou MQTT :**  
+   - Communication entre le matériel et le logiciel Unity.  
+4. **Firebase ou BDD Locale :**  
+   - Stockage des données de l’état de la plante pour persistance entre les sessions.
 
-## Ambiance
-### Moodboard
-- **Visuels :** Motifs fluides dans l'eau, ondes sonores, vidéo de sujet robotique/humanitaire et espace vide.
-![Palette](medias/6.jpg)
-![Palette](medias/5.jpg)
-![Palette](medias/7.jpg)
-![Palette](medias/3.jpg)
-![Palette](medias/2.jpg)
-![Palette](medias/1.jpg)
+---
 
-- **Son :** Échantillons de sons d’eau, mélodies ambiantes, voix de robot.
+## **Ambiance et Scénographie**
 
+### **Moodboard Visuel :**  
+- **Technologie recyclée :** Téléphones à cadran, claviers cassés, câblages emmêlés.  
+- **Nature sauvage :** Plantes grimpantes, mousse et fougères s’insinuant dans les objets technologiques.  
+- **Lumières douces et organiques :** Une atmosphère apaisante et immersive.  
 
+### **Palette de Couleurs :**  
+- Tons verts et bruns naturels, contrastés par des nuances métalliques et noires de la technologie.
 
-### Palette de Couleurs
+---
 
-![Palette](medias/palette.png)
+## **Expérience Utilisateur**  
+1. **Découverte :**  
+   - En entrant, les visiteurs sont accueillis par un espace où la technologie abandonnée et la nature coexistent harmonieusement.  
+2. **Interaction :**  
+   - Les visiteurs interagissent avec la plateforme et observent les effets immédiats sur la plante.  
+3. **Réflexion Collective :**  
+   - En voyant l’impact de leur participation (ou absence de participation) sur la plante, les visiteurs réfléchissent à leurs propres relations avec le temps et l’attention, que ce soit dans le monde numérique ou naturel.  
 
+---
 
-## Références Artistiques
-- **Oeuvres :**
-  - [Acoustic Levitation](https://www.ancient-origins.net/news-science-space-mysterious-phenomena/acoustic-levitation-floating-wave-sound-00684)
-  - [Chladni Patterns](https://youtu.be/eskZ3OORfYM)
-  - [Chladni Patterns on water](https://youtu.be/It83KlZ61l0)
-  - [James Turrell](https://youtu.be/udlzm3Ea3RE)
-- **Films :**
-  - [Koyaanisqatsi](https://www.youtube.com/watch?v=BRItSHelLr4)
-- **Jeu :**
-- - [Portal;](https://youtu.be/KkNYZ430qGw)
+## **Inspirations Artistiques**
+1. **Virgil Abloh :** Installation et design minimaliste mais percutant.  
+2. **Studio Drift :** Œuvres connectant technologie et nature.  
+3. **Olafur Eliasson :** Expériences immersives et visuelles.  
 
-## Technologies
-### Support Média
-- **Audio :** Panneau de contrôle (synthétiseur) contrôlant les fréquences, 1 haut-parleur à haute fidélité et 4 haut-parleurs pour projeter la voix robotique dans les coins de la pièce.
-- **Vidéo :** Projections interactives sur les murs.
-- **Lumières :** LEDs programmables.
-
-
-### Matériel
-- **Technologies interactives :** Contrôleurs tactiles ou synthétiseur, 5 haut-parleurs et 3 projecteurs Raspberry Pi pour contrôler tout le système, câbles HDMI et XLR, lumière de type LED.
-- **Plateformes et outils :** Eau sur plateforme et planche de bois pour insérer les contrôleurs et placer le haut-parleur contenant l'eau, ainsi que pour les 4 murs.
-
-### Logiciels
-- **Projection :** TouchDesigner.
-- **Audio :** Ableton Live relié à Max.
-- **3D du robot :** Blender.
-- **Voix du robot :** Ableton live.
-- **Réseautage et Communication :** OSC ou MIDI.
 
 
 
